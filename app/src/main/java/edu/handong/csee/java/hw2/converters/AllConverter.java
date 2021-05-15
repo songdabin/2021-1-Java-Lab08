@@ -45,7 +45,8 @@ public class AllConverter {
             kmToMile.convert();
             kmToMile.getConvertedValue();
             System.out.println(value +" " + original + " to " + kmToMile.getConvertedValue() + " MILE");
-        } else if(original.equals("TON")) {
+        }
+        else if(original.equals("TON")) {
             TONToKGConverter tonToKg = new TONToKGConverter();
             tonToKg.setFromValue(value);
             tonToKg.convert();
@@ -57,7 +58,8 @@ public class AllConverter {
             tonToG.convert();
             tonToG.getConvertedValue();
             System.out.println(value +" " + original + " to " + tonToG.getConvertedValue() + " G");
-        } else 
+        }
+        else 
             System.out.println("AllConverter cannot support the measure!"); 
     } 
 }
