@@ -5,7 +5,7 @@ import java.lang.reflect.InvocationTargetException;
 
 import edu.handong.csee.java.hw2.converters.*; // You will learn the import statement in L11.
 /**
-*   IntegratedConverter is a class that implment the convert according to the arguments 
+*   IntegratedConverter is a class that implement the convert according to the arguments 
 */
 public class IntegratedConverter {
 
